@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS (criaremos em seguida) -->
+    <title>Agência de Viagens</title>
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+        /* styles.css */
+
+/* Estilo da barra superior */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilo da imagem central */
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo da barra de pesquisa */
+.barra-pesquisa {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.barra-pesquisa input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.barra-pesquisa button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <!-- Barra superior com links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Contato</a></li>
+                <!-- Outros links relevantes -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Imagem central -->
+    <main>
+        <img src="./assets/img-da tela.webp" alt="">
+    </main>
+
+    <!-- Barra de pesquisa -->
+    <section class="barra-pesquisa">
+        <input type="text" placeholder="Pesquisar passeios, voos, hospedagens...">
+        <button>Pesquisar</button>
+    </section>
+
+    <!-- Outras seções (aluguéis de carro, seguro de viagens etc.) -->
+    <!-- ... -->
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Agência de Viagens. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
